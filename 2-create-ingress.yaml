@@ -10,12 +10,12 @@ spec:
   tls:
   - hosts:
     # YOUR_HOSTS_FOR_THIS_INGRESS (CAN BE MANY)
-    - apisslteste.brasilsabido.com.br
+    - portalfornecedor.athiewohnrath.com.br
     - apisslteste2.brasilsabido.com.br
     secretName: letsencrypt-prod
   rules:
     # HOST_1
-  - host: apisslteste.brasilsabido.com.br
+  - host: portalfornecedor.athiewohnrath.com.br
     http:
       paths:
       - backend:
